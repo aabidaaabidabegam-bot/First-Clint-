@@ -1,0 +1,106 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mehndi Artist | Beautiful Designs</title>
+  <style>
+    :root{
+      --primary:#6b2d5c; /* mehndi maroon */
+      --secondary:#f2c94c; /* golden */
+      --bg:#fff7fb;
+      --text:#2b2b2b;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color:var(--text); background:var(--bg);
+    }
+    header{
+      background:linear-gradient(135deg, var(--primary), #3b0f2f);
+      color:#fff; padding:22px 16px; text-align:center;
+    }
+    header h1{margin:0; font-size:26px; letter-spacing:.5px}
+    header p{margin:6px 0 0; opacity:.9}.container{max-width:1100px; margin:auto; padding:18px}
+
+.grid{display:grid; grid-template-columns: repeat(auto-fit, minmax(260px,1fr)); gap:18px}
+
+.card{
+  background:#fff; border-radius:16px; box-shadow:0 10px 22px rgba(0,0,0,.08);
+  overflow:hidden; display:flex; flex-direction:column;
+}
+.card img{width:100%; height:320px; object-fit:cover}
+.card .info{padding:14px}
+.name{font-weight:700; font-size:18px}
+.address{font-size:14px; margin:6px 0 10px}
+.actions{display:flex; gap:10px}
+.btn{
+  flex:1; padding:12px; border-radius:999px; text-align:center; text-decoration:none;
+  font-weight:600; border:2px solid transparent; transition:.2s ease;
+}
+.btn.wa{background:#25D366; color:#fff}
+.btn.call{background:#fff; color:#25D366; border-color:#25D366}
+.btn:hover{transform:translateY(-1px)}
+
+.gallery{margin-top:10px}
+.gallery img{height:140px}
+
+footer{
+  margin-top:30px; background:#2b0b22; color:#fff; text-align:center; padding:16px
+}
+
+@media(max-width:480px){
+  header h1{font-size:22px}
+  .card img{height:260px}
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Professional Mehndi Artist</h1>
+    <p>Bridal • Party • Traditional • Arabic Designs</p>
+  </header>  <main class="container">
+    <section class="grid">
+      <!-- Card 1 -->
+      <article class="card">
+        <img src="https://i.ibb.co/ym3MVv5Q/IMG-1.jpg" alt="Mehndi Design" />
+        <div class="info">
+          <div class="name">Fiza Saifi</div>
+          <div class="address">Noida Salapur, Bhangel Sec 101</div>
+          <div class="actions">
+            <a class="btn wa" href="https://wa.me/919654286069" target="_blank">WhatsApp</a>
+            <a class="btn call" href="tel:+919654286069">Call</a>
+          </div>
+        </div>
+      </article><!-- Card 2 -->
+  <article class="card">
+    <img src="https://i.ibb.co/dsQWwJM8/IMG-2.jpg" alt="Mehndi Design" />
+    <div class="info">
+      <div class="name">Mehndi Artist</div>
+      <div class="address">Address as per photo</div>
+      <div class="actions">
+        <a class="btn wa" href="https://wa.me/91XXXXXXXXXX" target="_blank">WhatsApp</a>
+        <a class="btn call" href="tel:+91XXXXXXXXXX">Call</a>
+      </div>
+    </div>
+  </article>
+
+  <!-- Card 3 -->
+  <article class="card">
+    <img src="https://i.ibb.co/twtwwTJt/IMG-3.jpg" alt="Mehndi Design" />
+    <div class="info">
+      <div class="name">Mehndi Artist</div>
+      <div class="address">Address as per photo</div>
+      <div class="actions">
+        <a class="btn wa" href="https://wa.me/91XXXXXXXXXX" target="_blank">WhatsApp</a>
+        <a class="btn call" href="tel:+91XXXXXXXXXX">Call</a>
+      </div>
+    </div>
+  </article>
+</section>
+
+  </main>  <footer>
+    <p>© 2026 Mehndi Artist • Book Now on WhatsApp</p>
+  </footer>
+</body>
+</html>
